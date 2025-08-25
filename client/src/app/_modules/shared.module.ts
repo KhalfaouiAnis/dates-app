@@ -26,9 +26,7 @@ import { TimeagoModule } from 'ngx-timeago';
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-left',
     }),
-    NgxSpinnerModule.forRoot({
-      type: 'line-scale-party',
-    }),
+    NgxSpinnerModule.forRoot(),
   ],
   exports: [
     BsDropdownModule,

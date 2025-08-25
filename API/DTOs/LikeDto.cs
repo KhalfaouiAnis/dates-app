@@ -1,6 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using System.Runtime.CompilerServices;
-
 namespace API.DTOs
 {
     public class LikeDto
